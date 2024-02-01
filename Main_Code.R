@@ -1,5 +1,6 @@
 #1. Import the csv file
 stats <- read.csv(file.choose())
+
 stats
 head(stats)
 
@@ -25,7 +26,6 @@ merged_2013 <- merge(stats_2013, add_2013, by.x = "Country.Code", by.y = "Code")
 head(merged_2013)
 
 #5. Visualization
-
 qplot(data = merged_1960, x = Fertility.Rate, y = Life.Exp,
        colour = Region,
        size = I(5),

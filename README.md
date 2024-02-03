@@ -13,7 +13,8 @@ _Files provides (in "Important Data" folder)_
 
 ## Explanation
 
-
+**Visualization**
+**1. 1960**
 ```r
 qplot(data = merged_2013, x = Fertility.Rate, y = Life.Exp,
       colour = Region,
@@ -23,9 +24,10 @@ qplot(data = merged_2013, x = Fertility.Rate, y = Life.Exp,
       main = "Life Expectancy vs Fertility (2013)")
 ```
 
-
 - 1960
 ![Imgur](https://i.imgur.com/QH621Ga.png)
+
+
 - 2013
 ![Imgur](https://i.imgur.com/NaPEUWN.png)
 

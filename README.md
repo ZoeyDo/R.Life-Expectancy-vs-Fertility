@@ -15,7 +15,18 @@ _Files provides (in "Important Data" folder)_
 
 ### Visualization
 
-**1.1 1960**
+**1. Year 1960**
+```r
+qplot(data = merged_1960, x = Fertility.Rate, y = Life.Exp,
+       colour = Region,
+       size = I(5),
+       alpha = I(0.7),
+       shape = I(20),
+       main = "Life Expectancy vs Fertility (1960)")
+```
+![Imgur](https://i.imgur.com/QH621Ga.png)
+
+**2. Year 2013
 ```r
 qplot(data = merged_2013, x = Fertility.Rate, y = Life.Exp,
       colour = Region,
@@ -24,10 +35,6 @@ qplot(data = merged_2013, x = Fertility.Rate, y = Life.Exp,
       shape = I(18),
       main = "Life Expectancy vs Fertility (2013)")
 ```
-![Imgur](https://i.imgur.com/QH621Ga.png)
-
-
-- 2013
 ![Imgur](https://i.imgur.com/NaPEUWN.png)
 
 

@@ -22,7 +22,6 @@ _Files provided:_
 * Lala yeeu em
 *
 
-> [!NOTE]
 > - 1960
 ![Imgur](https://i.imgur.com/QH621Ga.png)
 > - 2013

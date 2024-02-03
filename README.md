@@ -13,7 +13,7 @@ _Files provides (in "Important Data" folder)_
 
 ## Explanation
 
-**1. Visualization**
+### Visualization**
 
 **1.1 1960**
 ```r
@@ -24,8 +24,6 @@ qplot(data = merged_2013, x = Fertility.Rate, y = Life.Exp,
       shape = I(18),
       main = "Life Expectancy vs Fertility (2013)")
 ```
-
-- 1960
 ![Imgur](https://i.imgur.com/QH621Ga.png)
 
 

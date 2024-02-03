@@ -36,7 +36,9 @@ head(stats_2013)
 
 **3. Creating additional data frames**
 
-Create a data frame (add_1960), as a bridge to merge with data frame "stats_1960" with 
+Create a data frame (add_1960), containing two rows: Life.Exp (vector "Life_Expectancy_At_Birth_1960") and Code (vector "Country_Code"). Row "Code" is the bridge to merge "add_1960" and "stats_1960" in the next step, since "stats_1960" does not have information about Life Expectancy.
+
+Do the same with year 2013.
 
 ```r
 add_1960 <- data.frame(Code = Country_Code, Life.Exp = Life_Expectancy_At_Birth_1960)
@@ -44,6 +46,18 @@ head(add_1960, n = 10)
 
 add_2013 <- data.frame(Code = Country_Code, Life.Exp = Life_Expectancy_At_Birth_2013)
 head(add_2013, n = 10)
+```
+
+**4. Merging**
+
+Merge "stats_1960" and "add_1960" by "Country.Code" from "stats_1960" and "Code" from "add_1960". Merge "stats_2013" and "add_2013" by "Country.Code" from "stats_2013" and "Code" from "add_2013".
+
+```r
+merged_1960 <- merge(stats_1960, add_1960, by.x = "Country.Code", by.y = "Code")
+head(merged_1960)
+
+merged_2013 <- merge(stats_2013, add_2013, by.x = "Country.Code", by.y = "Code")
+head(merged_2013)
 ```
 
 ### Visualization

@@ -13,8 +13,9 @@ _Files provides (in "Important Data" folder)_
 
 ## Explanation
 
-**Visualization**
-**1. 1960**
+**1. Visualization**
+
+**1.1 1960**
 ```r
 qplot(data = merged_2013, x = Fertility.Rate, y = Life.Exp,
       colour = Region,

@@ -12,6 +12,11 @@ _Files provides (in "Important Data" folder)_
 
 ## Explanation
 
+### Working with data
+
+**1. Spliting data**
+Since there are two seperated years which are 1960 and 2013, split the big data frame into two smaller data frames.
+  
 ### Visualization
 
 **1. Year 1960**

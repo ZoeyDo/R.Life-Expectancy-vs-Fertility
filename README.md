@@ -12,7 +12,7 @@ _Files provides (in "Important Data" folder)_
 
 ## Explanation
 
-### Working with data
+### A. Working with data
 
 **1. Importing the CSV file**
 ```r
@@ -60,7 +60,7 @@ merged_2013 <- merge(stats_2013, add_2013, by.x = "Country.Code", by.y = "Code")
 head(merged_2013)
 ```
 
-### Visualization
+### B. Visualization
 
 **1. Year 1960**
 ```r

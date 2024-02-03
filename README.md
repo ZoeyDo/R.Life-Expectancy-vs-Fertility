@@ -13,7 +13,7 @@ _Files provides (in "Important Data" folder)_
 
 ## Explanation
 
-### Visualization**
+### Visualization
 
 **1.1 1960**
 ```r

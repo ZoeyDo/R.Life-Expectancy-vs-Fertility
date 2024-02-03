@@ -18,7 +18,7 @@ head(add_1960, n = 10)
 add_2013 <- data.frame(Code = Country_Code, Life.Exp = Life_Expectancy_At_Birth_2013)
 head(add_2013, n = 10)
 
-#4. Merge the pairs of dataframes
+#4. Merge the pairs of data frames
 merged_1960 <- merge(stats_1960, add_1960, by.x = "Country.Code", by.y = "Code")
 head(merged_1960)
 

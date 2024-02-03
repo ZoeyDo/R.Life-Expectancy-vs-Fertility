@@ -29,13 +29,13 @@ head(merged_2013)
 qplot(data = merged_1960, x = Fertility.Rate, y = Life.Exp,
        colour = Region,
        size = I(5),
-       alpha = I(0.2),
-       shape = I(18),
+       alpha = I(0.7),
+       shape = I(20),
        main = "Life Expectancy vs Fertility (1960)")
 
 qplot(data = merged_2013, x = Fertility.Rate, y = Life.Exp,
       colour = Region,
       size = I(5),
-      alpha = I(0.8),
-      shape = I(18),
+      alpha = I(0.7),
+      shape = I(20),
       main = "Life Expectancy vs Fertility (2013)")

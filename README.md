@@ -8,6 +8,15 @@
 > - okay
 > - lala
 
+```r
+qplot(data = merged_2013, x = Fertility.Rate, y = Life.Exp,
+      colour = Region,
+      size = I(5),
+      alpha = I(0.8),
+      shape = I(18),
+      main = "Life Expectancy vs Fertility (2013)")
+```
+
 _Files provided:_
 * A cvs file 
 *

@@ -9,7 +9,7 @@ Files provides (in "Important Data" folder):
 
 > [!NOTE]
 > - This project is a homework from a course on Udemy: R Programming A-Z™: R For Data Science With Real Exercises!
-> - All data (except for the coding) is published and used freely.
+> - All data (except for the coding) is published and used freely (according to this course's instructor).
 
 
 ```r

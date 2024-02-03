@@ -4,9 +4,8 @@
 
 **Hello**
 
-:::Note
-Lala
-:::
+> [!NOTE]
+> okay
 
 _Files provided:_
 * A cvs file 

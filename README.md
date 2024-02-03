@@ -23,6 +23,10 @@ _Files provided:_
 *
 
 > [!NOTE]
+> - 1960
+![Imgur](https://i.imgur.com/QH621Ga.png)
 > - 2013
 ![Imgur](https://i.imgur.com/NaPEUWN.png)
+
+
 

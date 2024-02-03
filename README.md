@@ -1,11 +1,11 @@
-# R-Project---Life-Expectancy-vs-Fertility
+# R.Life-Expectancy-vs-Fertility
 
 ### This project is to produce a scatterplot depicting Life Expectancy (y-axis) and Fertility Rate (x-axis) statistics by Country. The scatterplot is also categorized by Countries' Regions.
 
 Files provides (in "Important Data" folder):
-1. 
-2.
-3.
+1. A CSV file containing 5 rows: Country Name, Country Code, Region, Year, Fertility Rate.
+2. A R file containing 3 vectors: Country_Code, Life_Expectancy_At_Birth_1960, Life_Expectancy_At_Birth_2013
+
 
 > [!NOTE]
 > - okay

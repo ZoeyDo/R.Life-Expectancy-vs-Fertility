@@ -4,12 +4,14 @@
 
 _Files provides (in "Important Data" folder)_
 1. A CSV file containing 5 rows: Country Name, Country Code, Region, Year, Fertility Rate.
-2. A R file containing 3 vectors: Country_Code, Life_Expectancy_At_Birth_1960, Life_Expectancy_At_Birth_2013
+2. An R file containing 3 vectors: Country_Code, Life_Expectancy_At_Birth_1960, Life_Expectancy_At_Birth_2013
 
 
 > [!NOTE]
 > - This project is a homework from a course on Udemy: R Programming A-Z™: R For Data Science With Real Exercises!
 > - All data (except for the coding) is published and used freely (according to this course's instructor).
+
+## Explanation
 
 
 ```r

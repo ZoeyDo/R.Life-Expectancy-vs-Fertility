@@ -8,8 +8,9 @@ Files provides (in "Important Data" folder):
 
 
 > [!NOTE]
-> - okay
-> - lala
+> - This project is a homework from a course on Udemy: R Programming A-Z™: R For Data Science With Real Exercises!
+> - All data (except for the coding) is published and used freely.
+
 
 ```r
 qplot(data = merged_2013, x = Fertility.Rate, y = Life.Exp,

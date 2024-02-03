@@ -14,9 +14,38 @@ _Files provides (in "Important Data" folder)_
 
 ### Working with data
 
-**1. Spliting data**
-Since there are two seperated years which are 1960 and 2013, split the big data frame into two smaller data frames.
-  
+**1. Importing the CSV file**
+```r
+stats <- read.csv(file.choose())
+
+stats
+head(stats)
+```
+
+**2. Splitting data**
+
+Since there are two seperated years which are 1960 and 2013, split the big data frame into two smaller data frames (stats_1960, stats_2013).
+
+```r
+stats_1960 <- stats[stats$Year == 1960,]
+stats_2013 <- stats[stats$Year == 2013,]
+
+head(stats_1960)
+head(stats_2013)
+```
+
+**3. Creating additional data frames**
+
+Create a data frame (add_1960), as a bridge to merge with data frame "stats_1960" with 
+
+```r
+add_1960 <- data.frame(Code = Country_Code, Life.Exp = Life_Expectancy_At_Birth_1960)
+head(add_1960, n = 10)
+
+add_2013 <- data.frame(Code = Country_Code, Life.Exp = Life_Expectancy_At_Birth_2013)
+head(add_2013, n = 10)
+```
+
 ### Visualization
 
 **1. Year 1960**

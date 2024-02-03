@@ -2,7 +2,10 @@
 
 ### This project is to produce a scatterplot depicting Life Expectancy (y-axis) and Fertility Rate (x-axis) statistics by Country. The scatterplot is also categorized by Countries' Regions.
 
-**Hello**
+Files provides (in "Important Data" folder):
+1. 
+2.
+3.
 
 > [!NOTE]
 > - okay

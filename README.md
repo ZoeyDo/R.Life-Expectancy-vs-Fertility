@@ -3,7 +3,7 @@
 ### This project is to produce a scatterplot (using qplot) depicting Life Expectancy (y-axis) and Fertility Rate (x-axis) statistics by Country. The scatterplot is also categorized by Countries' Regions.
 
 _Files provided (in folder "Important Data")_
-1. A CSV file containing 5 rows: Country Name, Country Code, Region, Year, Fertility Rate.
+1. A CSV file containing 5 columns: Country Name, Country Code, Region, Year, Fertility Rate.
 2. An R file containing 3 vectors: Country_Code, Life_Expectancy_At_Birth_1960, Life_Expectancy_At_Birth_2013
 
 > [!NOTE]
@@ -36,7 +36,7 @@ head(stats_2013)
 
 **3. Creating additional data frames**
 
-Create a data frame (add_1960), containing two rows: Life.Exp (vector "Life_Expectancy_At_Birth_1960") and Code (vector "Country_Code"). Row "Code" is the bridge to merge "add_1960" and "stats_1960" in the next step, since "stats_1960" does not have information about Life Expectancy.
+Create a data frame (add_1960), containing two columns: Life.Exp (vector "Life_Expectancy_At_Birth_1960") and Code (vector "Country_Code"). Column "Code" is the bridge to merge "add_1960" and "stats_1960" in the next step, since "stats_1960" does not have information about Life Expectancy.
 
 Do the same with year 2013.
 

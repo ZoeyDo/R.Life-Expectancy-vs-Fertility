@@ -2,7 +2,7 @@
 
 ### This project is to produce a scatterplot (using qplot) depicting Life Expectancy (y-axis) and Fertility Rate (x-axis) statistics by Country. The scatterplot is also categorized by Countries' Regions.
 
-_Files provides (in "Important Data" folder)_
+_Files provided (in "Important Data" folder)_
 1. A CSV file containing 5 rows: Country Name, Country Code, Region, Year, Fertility Rate.
 2. An R file containing 3 vectors: Country_Code, Life_Expectancy_At_Birth_1960, Life_Expectancy_At_Birth_2013
 
